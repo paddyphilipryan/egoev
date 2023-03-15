@@ -20,7 +20,8 @@
     "allow-plugins": {
       "craftcms/plugin-installer": true,
       "yiisoft/yii2-composer": true,
-      "fortrabbit/craft-auto-migrate": true
+      "fortrabbit/craft-auto-migrate": true,
+      "platform-check": false
     },
     "sort-packages": true,
     "optimize-autoloader": true

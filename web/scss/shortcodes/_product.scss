@@ -1,0 +1,141 @@
+/*****************************
+ Product
+*****************************/
+.product {
+    position: relative;
+
+    .thumbnail-bg {
+        background-color: $gray-2;
+    }
+
+    .thumbnail-light {
+        background-color: $white;
+    }
+
+    .product-image {
+        position: relative;
+
+        img {
+            transition: all 0.5s ease-in-out;
+
+            &:hover {
+                transform: scale(1.05) rotate(0.01deg);
+            }
+
+        }
+
+        .custom-icon {
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            opacity: 0;
+            right: 10px;
+            transition: all 0.3s ease-in-out;
+
+            ul {
+                li {
+                    a {
+                        font-size: 18px;
+                        color: $secondary;
+                        display: block;
+                        line-height: 42px;
+                        background: $white;
+                        width: 40px;
+                        height: 40px;
+                        text-align: center;
+                        border-radius: 50%;
+                        margin-bottom: 10px;
+                        transition: all 0.3s ease-in-out;
+                    }
+
+                    a.icon-bg {
+                        background: $gray-1;
+                    }
+
+                    &:hover {
+                        a {
+                            color: $white;
+                            background: $primary;
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .product-content {
+        padding: 30px 20px;
+
+        .product-info {
+            display: flex;
+            justify-content: space-between;
+
+            .product-title {
+                h3 {
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
+
+            }
+
+            .product-star {
+                ul {
+                    display: flex;
+
+                    li {
+                        i {
+                            color: $yellow;
+                            font-size: 15px;
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .category {
+            font-size: 18px;
+            font-weight: 500;
+            color: $secondary;
+
+            &:hover {
+                color: $primary;
+            }
+
+        }
+
+        .product-prize {
+            padding-top: 5px;
+
+            p {
+                color: $secondary;
+                font-weight: 500;
+                margin-bottom: 0;
+
+                span {
+                    color: rgba($secondary, 0.6);
+                }
+
+            }
+
+        }
+
+    }
+
+    &:hover {
+        .custom-icon {
+            opacity: 1;
+            right: 20px;
+        }
+
+    }
+
+}

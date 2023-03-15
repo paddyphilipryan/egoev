@@ -1,0 +1,79 @@
+<header class="header header-sticky default">
+      <nav class="navbar navbar-static-top navbar-expand-xl">
+       {% set logol = header.logoLight.one() %}
+       {% set logod = header.logoDark.one() %}
+        <div class="container-fluid main-header position-relative">
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"><i class="fas fa-align-left"></i></button>
+          <a class="navbar-brand" href="{{ siteUrl }}">
+            <img class="logo img-fluid" src="{{ logod.url }}" alt="logo">
+            <img class="sticky-logo img-fluid" src="{{ logol.url }}" alt="logo">
+          </a>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              {% for link in header.navLinks.all() %}
+                            {% set destination = link.linkDestination.one() %}
+                            {% set activeLink = craft.app.request.segments|first == destination.uri %}
+							<li class="nav-item"> <a class="nav-link" href="{{ destination.url }}">{{ link.linkText }}</a></li>
+							{% endfor %}
+            </ul>
+          </div>
+          <div class="add-listing">
+            <div class="need-help">
+              <div class="icon">
+                <img src="{{ siteUrl }}images/svg/phone-01.svg" alt="#">
+              </div>
+              <div class="help-info">
+                <p>{{ header.navMore }}</p>
+                <span>{{ header.navPhone }}</span>
+              </div>
+            </div>
+              <div class="side-menu">
+                <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                  <img src="{{ siteUrl }}images/svg/menu.svg" alt="#">
+                  <img class="menu-dark" src="{{ siteUrl }}images/svg/menu-dark.svg" alt="#">
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--=================================
+      Header -->
+      <!--=================================
+      Right menu -->
+      <!--=================================
+      Right menu -->
+      <div class="offcanvas offcanvas-end offcanvas-sidebar-menu" tabindex="-1" id="offcanvasRight">
+        <div class="offcanvas-header text-end justify-content-end p-4">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="offcanvas-body p-4 p-sm-5 d-flex align-content-between flex-wrap justify-content-center">
+          <div class="sidebar-menu">
+            <div class="sidebar-logo">
+              <a href="{{ siteUrl }}">
+                <img class="logo img-fluid" src="{{ logod.url }}" alt="logo">
+              </a>
+            </div>
+            <div class="section-title mt-5">
+              <h3 class="title text-white">About us</h3>
+              <p class="text-white">{{ header.sidebarAbout}}</p>
+            </div>
+            <div class="mt-5">
+              <h3 class="mb-3 text-white">Contact Info</h3>
+              <p class="text-white">{{ header.contactAddress }}</p>
+              <h5 class="text-white">{{ header.contactPhone }}</h5>
+              <h5 class="text-white">{{ header.contactEmail }}</h5>
+            </div>
+            <div class="social-icon mt-5">
+              <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--=================================
+      Right menu -->

@@ -1,0 +1,19 @@
+columnSuffix: wpfscqkj
+contentColumnType: text
+fieldGroup: 323302d5-3080-4846-953b-89098541764d # Header
+handle: contactEmail
+instructions: null
+name: 'Contact Email'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

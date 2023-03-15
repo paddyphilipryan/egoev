@@ -1,0 +1,19 @@
+columnSuffix: duofvjle
+contentColumnType: text
+fieldGroup: a12e8610-04d3-4181-8ffd-deef08641134 # Service Pages
+handle: sectionTitle
+instructions: null
+name: 'Section Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

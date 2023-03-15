@@ -1,0 +1,168 @@
+/*****************************
+  Button
+*****************************/
+.btn {
+  border: none;
+  z-index: 1;
+  position: relative;
+  font-size: 16px;
+  padding: 15px 40px;
+  overflow: hidden;
+  border-radius: 0;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+
+  &:active {
+    box-shadow: none;
+    outline: none;
+  }
+
+}
+
+.btn.btn-link {
+  padding: 0 !important;
+}
+
+/*Btn Color*/
+.btn.btn-primary {
+  background: $primary;
+  color: $white;
+
+  &:hover {
+    background: $secondary;
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+
+}
+
+.btn-white {
+  background: $white;
+  color: $black;
+
+  &:hover {
+    background: $primary;
+    color: $white;
+    transform: translateY(-2px);
+  }
+
+  &:focus {
+    color: $black;
+  }
+
+}
+
+.btn-secondary {
+  background: $secondary;
+  color: $white;
+
+  &:hover {
+    background: $primary;
+    transform: translateY(-2px);
+  }
+
+}
+
+.bg-dark {
+  .btn-primary {
+    &:hover {
+      background: $white;
+      color: $primary;
+    }
+
+  }
+
+}
+
+.btn.text-secondary:hover {
+  color: $primary !important;
+}
+
+.btn.text-white:hover {
+  color: $primary !important;
+}
+
+.btn.text-primary:hover {
+  color: $secondary !important;
+}
+
+/*Btn Size*/
+.btn.btn-lg {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn.btn-md {
+  font-size: 14px;
+  padding: 15px 30px;
+}
+
+.btn.btn-sm {
+  font-size: 14px;
+  padding: 12px 20px;
+}
+
+/*btn-app*/
+.btn-app {
+  font-size: 14px;
+  padding: 8px 20px;
+  background-color: $secondary;
+  color: $white;
+  display: inline-flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  i {
+    font-size: 30px;
+    padding-right: 10px;
+  }
+
+  .small-text {
+    font-size: 11px;
+  }
+
+  span {
+    line-height: 14px;
+  }
+
+  &:hover {
+    background-color: $primary;
+    color: $white;
+    transform: translateY(-2px);
+  }
+
+}
+
+@media (max-width:575px) {
+  .btn {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+
+  .btn-app {
+    display: inline-flex;
+    padding: 8px 14px;
+
+    i {
+      font-size: 24px;
+      padding-right: 6px;
+    }
+
+  }
+
+}

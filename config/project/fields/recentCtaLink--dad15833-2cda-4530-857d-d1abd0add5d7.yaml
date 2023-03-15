@@ -1,0 +1,14 @@
+columnSuffix: mjyodxws
+contentColumnType: string(255)
+fieldGroup: a6959af8-3f31-4847-85e1-3d8e27e18987 # Home
+handle: recentCtaLink
+instructions: null
+name: 'Recent CTA Link'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

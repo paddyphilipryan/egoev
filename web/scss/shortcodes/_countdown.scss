@@ -1,0 +1,202 @@
+/*****************************
+  Countdown
+*****************************/
+.countdown-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .countdown {
+    padding: 10px;
+    background-color: $secondary;
+    color: $white;
+    border-radius: $border-radius-sm;
+    margin: 5px;
+    width: 66px;
+    height: 66px;
+
+    span {
+      font-size: 18px;
+      line-height: 1;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    p {
+      font-size: 12px;
+      text-transform: capitalize;
+      margin-top: 5px;
+      margin-bottom: 0;
+    }
+
+  }
+
+}
+
+.coming-soon-section {
+  h1 {
+    font-size: 100px;
+    text-shadow: 0px 5px 8px rgba($black, 0.50);
+  }
+
+  .countdown-main {
+    .countdown {
+      color: $secondary;
+      background-color: inherit;
+      width: inherit;
+      height: inherit;
+
+      span {
+        font-size: 60px;
+        padding: 10px 30px;
+        color: $secondary;
+        border-radius: $border-radius-sm;
+        background-color: $white;
+      }
+
+      p {
+        margin-top: 40px;
+        font-size: 18px;
+        padding: 6px 40px;
+        color: $white;
+        border-radius: $border-radius;
+        border: 1px solid $white;
+        font-weight: 500;
+      }
+
+    }
+
+  }
+
+  .form-inline {
+    position: relative;
+
+    .form-control {
+      height: 60px;
+      padding: 14px 170px 14px 20px;
+    }
+
+    .btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 14px 40px 14px;
+      height: 60px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+
+      &:after {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+      }
+
+      &:hover {
+        transform: translateY(0px);
+      }
+
+    }
+
+  }
+
+}
+
+.coming-soon-top {
+  .navbar {
+    .navbar-brand {
+      img {
+        height: 70px;
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width:1200px) {
+  .coming-soon-section {
+    h1 {
+      font-size: 70px;
+    }
+
+    .countdown-main {
+      .countdown {
+        span {
+          font-size: 60px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width:991px) {
+  .coming-soon {
+    height: 100% !important;
+  }
+
+  .coming-soon-section {
+    h1 {
+      font-size: 60px;
+    }
+
+    .countdown-main {
+      .countdown {
+        span {
+          font-size: 50px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width:767px) {
+  .coming-soon-section {
+    h1 {
+      font-size: 46px;
+    }
+
+    .countdown-main {
+      .countdown {
+        span {
+          font-size: 40px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width:575px) {
+  .coming-soon-section {
+    h1 {
+      font-size: 36px;
+    }
+
+    .form-inline {
+      .btn {
+        position: inherit;
+        border-radius: $border-radius !important;
+
+        &:after {
+          border-top-left-radius: $border-radius;
+          border-bottom-left-radius: $border-radius;
+        }
+
+      }
+
+    }
+
+  }
+
+}

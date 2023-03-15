@@ -1,0 +1,50 @@
+<!--=================================
+      footer-->
+      <footer class="footer space-pt bg-overlay-secondary-9 bg-holder" style="background-image: url({{ siteUrl }}images/home-01/footer-bg.jpg);">
+        <div class="container position-relative pb-5">
+          <div class="row">
+            <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
+                  {% set logol = header.logoLight.one() %}
+                  {% set logod = header.logoDark.one() %}
+  
+              <div class="footer-logo mb-3 mb-md-5">
+                <img class="logo img-fluid" src="{{ logod.url }}" alt="logo">
+              </div>
+              <div class="call-center">
+                <h3>Call Us: {{ header.navPhone }}</h3>
+              </div>
+              <div class="footer-social-icon">
+                <ul class="list-unstyled mb-0">
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-dropbox"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-8  mb-4 mb-lg-0">
+              <div class="footer-newsletter">
+                <h3 class="text-white">Signup for our newsletter </h3>
+                <p>Sign up to our newsletter to get the latest news and offers.</p>
+                <form class="form-inline dark-form">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Enter email for newsletter">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Subscribe <i class="fa-solid fa-arrow-right-long ms-2"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container position-relative">
+          <div class="copyright">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-12 text-center">
+                <p class="mb-0 text-white">{{ header.footerCopy }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--=================================
+      footer-->

@@ -1,0 +1,181 @@
+/*****************************
+ accordion
+*****************************/
+.accordion {
+	.accordion-item {
+		border: 0;
+		background-color: inherit;
+
+		h3.accordion-header {
+			border-bottom: 1px solid #cccccc;
+			padding-bottom: 30px;
+			margin-bottom: 30px;
+
+			.accordion-button {
+				font-size: inherit;
+				padding: 0;
+				font-weight: 600;
+				background-color: inherit;
+				color: $secondary;
+
+				&:after {
+					content: "\2b";
+					background-image: inherit;
+					font-family: 'Font Awesome 5 Free';
+					font-size: 18px;
+					margin-right: 20px;
+					color: $secondary;
+				}
+
+				&:hover {
+					color: $primary;
+				}
+
+			}
+
+			.accordion-button:hover {
+				&:after {
+					color: $primary;
+				}
+
+			}
+
+			.accordion-button:not(.collapsed) {
+				background-color: inherit;
+				box-shadow: inherit;
+				outline: inherit;
+				color: $primary;
+
+				&:after {
+					content: "\f068";
+					background-image: inherit;
+					font-family: 'Font Awesome 5 Free';
+					transform: inherit;
+					color: $primary;
+				}
+
+			}
+
+		}
+
+		.accordion-button:focus {
+			border-color: inherit;
+			box-shadow: inherit;
+		}
+
+		.accordion-collapse {
+			.accordion-body {
+				padding: 0px 15px 30px 15px;
+				color: $body-color;
+			}
+
+		}
+
+		&:last-child .accordion-header {
+			margin-bottom: 0;
+		}
+
+		&:last-child .accordion-body {
+			padding-top: 30px;
+			padding-bottom: 0px;
+		}
+
+	}
+
+}
+
+.checkout-review {
+	.accordion {
+		.card {
+			border: none;
+			padding: 8px 0px;
+			margin-bottom: 5px;
+
+			.accordion-icon.card-header {
+				background: none;
+				padding: 0;
+				border-bottom: none;
+
+				button {
+					padding: 0px 0px 0px 30px;
+					font-size: 18px;
+					font-weight: 600;
+
+					&:before {
+						font-size: 10px;
+						position: absolute;
+						top: 50%;
+						transform: translateY(-50%);
+						left: 0;
+						content: "\f068";
+						font-family: "Font Awesome 5 Free";
+						border: 2px solid $primary;
+						width: 18px;
+						height: 18px;
+						line-height: 14px;
+						border-radius: 50%;
+						z-index: 9;
+						text-align: center;
+						font-weight: 600;
+					}
+
+				}
+
+				button.collapsed {
+					&:before {
+						content: "\f067";
+					}
+
+				}
+
+			}
+
+			.card-body {
+				padding: 10px 0px 0px 30px;
+			}
+
+		}
+
+	}
+
+}
+
+.map-section {
+	.accordion {
+		margin-left: 50px;
+	}
+
+}
+
+@media (max-width:991px) {
+	.map-section {
+		.accordion {
+			margin-left: 0px;
+		}
+
+	}
+
+}
+
+@media (max-width:767px) {
+	.accordion {
+		.accordion-item {
+			h3.accordion-header {
+				padding-bottom: 15px;
+				margin-bottom: 20px;
+				font-size: 20px;
+
+				.accordion-button {
+					&:after {
+						margin-right: 0px;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

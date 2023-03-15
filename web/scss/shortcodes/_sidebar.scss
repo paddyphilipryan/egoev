@@ -1,0 +1,283 @@
+/*****************************
+  sidebar
+*****************************/
+.sidebar {
+  .widget {
+    padding: 30px;
+    margin-top: 0px !important;
+    box-shadow: $box-shadow;
+    margin-bottom: 30px;
+    background: $white;
+
+    .widget-title {
+      margin-bottom: 20px;
+    }
+
+    .widget-content {
+      .popular-tag {
+        ul {
+          margin-bottom: 0;
+        }
+
+      }
+
+    }
+
+    /*sidebar-search*/
+    .search {
+      position: relative;
+      border-bottom: 1px solid $primary;
+
+      .btn {
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        padding: 0;
+        background: inherit;
+        color: $secondary;
+        cursor: pointer;
+        margin: 0;
+        border-radius: 0 3px 3px 0px;
+        transition: all 0.5s ease;
+      }
+
+      input {
+        padding: 10px 90px 10px 20px;
+        height: 50px;
+        font-size: 18px;
+        border: 0;
+      }
+
+    }
+
+    /*sidebar-categories*/
+    .widget-categories {
+      ul.list-style {
+        li {
+          a {
+            display: flex;
+            color: $secondary;
+            width: 100%;
+            line-height: 32px;
+            justify-content: space-between;
+          }
+
+        }
+
+      }
+
+      .list-style-underline {
+        li {
+          a {
+            padding: 10px 0;
+            border-bottom: 1px solid $border-color;
+
+            span {
+              font-size: 10px;
+            }
+
+            &:hover {
+              color: $primary;
+            }
+
+          }
+
+          &:last-child {
+            a {
+              border-bottom: inherit;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    /*RECENT POST*/
+    .recent-post {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+
+      .post-img {
+        flex: 0 0 100px;
+        margin-right: 15px;
+      }
+
+      .post-info {
+        .post-date {
+          font-size: 14px;
+          padding-bottom: 5px;
+          display: block;
+
+          i {
+            margin-right: 8px;
+          }
+
+        }
+
+        h6 {
+          font-size: 16px;
+          font-weight: bold;
+          line-height: 24px;
+          margin-bottom: 0;
+        }
+
+      }
+
+    }
+
+    /*social*/
+    .social {
+      ul {
+        margin-bottom: 0;
+
+        li {
+          padding: 10px 10px 10px 15px;
+          border: 1px solid $border-color;
+          display: flex ! important;
+          margin-bottom: 10px;
+          align-items: center;
+
+          a {
+            font-weight: 500;
+          }
+
+          .follow {
+            background: $gray-1;
+            padding: 3px 18px;
+            font-size: 12px;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+        }
+
+        .facebook {
+          a {
+            color: #466ca9;
+          }
+
+          .follow {
+            &:hover {
+              background: #466ca9;
+              color: $white;
+            }
+
+          }
+
+        }
+
+        .twitter {
+          a {
+            color: #20b5e6;
+          }
+
+          .follow {
+            &:hover {
+              background: #20b5e6;
+              color: $white;
+            }
+
+          }
+
+        }
+
+        .youtube {
+          a {
+            color: #d92c20;
+          }
+
+          .follow {
+            &:hover {
+              background: #d92c20;
+              color: $white;
+            }
+
+          }
+
+        }
+
+        .instagram {
+          a {
+            color: #2673f8;
+          }
+
+          .follow {
+            &:hover {
+              background: #2673f8;
+              color: $white;
+            }
+
+          }
+
+        }
+
+        .linkedIn {
+          a {
+            color: #13799f;
+          }
+
+          .follow {
+            &:hover {
+              background: #13799f;
+              color: $white;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    /*popular-tag*/
+    .popular-tag {
+      ul {
+        li {
+          display: inline-block;
+          margin-bottom: 10px;
+          margin-right: 8px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          a {
+            padding: 6px 20px;
+            display: block;
+            border: 2px solid $gray-1;
+            color: $body-color;
+            background: $gray-1;
+
+            &:hover {
+              color: $primary;
+              border-color: $primary;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media (max-width:575px) {
+  .sidebar {
+    .widget {
+      padding: 20px;
+    }
+
+  }
+
+}

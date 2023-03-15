@@ -1,0 +1,150 @@
+dateModified: 1678656226
+email:
+  fromEmail: paddy@unitopsmedia.com
+  fromName: 'EGO EV'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: '@web/uploads'
+meta:
+  __names__:
+    0aa3c2a5-a974-4f93-9359-d0df29bb8024: Footer # Footer
+    0afa1926-f7cb-4bfd-8ef5-106fc8c40267: 'FAQ Subtitle' # FAQ Subtitle
+    0e727dac-2a07-4e2a-99a8-683fa8a5e93a: 'EGO EV' # EGO EV
+    1b4f3dc4-61ba-4537-a5c5-e0f2d8292b75: Twitter # Twitter
+    1cbfc8a7-2e83-4c2e-a78f-846d1202f6c3: 'Link Text' # Link Text
+    1d18e928-59e9-4a8d-8036-ad9b4dd9b6f3: Testimonials # Testimonials
+    1e7f124a-3fc0-48f7-b8e1-0668db81209b: 'Logo Light' # Logo Light
+    2a5a99ee-9a61-43c0-b544-cbf78e7dcae6: 'Nav Links' # Nav Links
+    2b8b4624-96c9-4ae6-93ae-dcacd66562c1: 'Bottom Section Subtitle' # Bottom Section Subtitle
+    2c13bf6b-ae6d-4d53-b34a-89d4b65f5d2d: 'Testimonials Title' # Testimonials Title
+    2e6b4ea0-3e54-48e4-899c-6abefd32a6ec: 'Car Banner' # Car Banner
+    3ab02981-25ad-470e-b7b0-57d3c05d2997: 'Services Title' # Services Title
+    3c1361c7-85bc-4a87-b453-60bd4c7c3213: Default # Default
+    3ccf91d3-1b5b-4005-9b6f-8e582df7956c: About # About
+    3f337be1-a487-4d72-a79a-ce263d16f1c9: 'Blog Fields' # Blog Fields
+    4f34dbb1-8ff0-4efa-a470-402c1e06a1e4: Logo_Dark # Logo_Dark
+    5f09351e-aae1-4276-82b6-c0af6f0fa2dd: 'Service Text Link Title' # Service Text Link Title
+    6da07117-8730-4b9c-a804-d1a8a9feb2ab: 'Contact Address' # Contact Address
+    6eba2d02-08de-4fe3-b927-933981336cf2: 'FAQ Title' # FAQ Title
+    6f0d4ef7-c793-4943-aefd-164f2f66135d: 'Common Excerpt' # Common Excerpt
+    8e4b0746-056f-4372-bb9e-0d25e3eccaa8: 'Nav More' # Nav More
+    9ad2d0e7-8a45-4415-8c2d-37f4f5f0d53b: 'App Body Text' # App Body Text
+    09e5bcec-ebd8-4ddc-86c8-9e86be6489c9: Uploads # Uploads
+    10b131d9-f5f8-42c1-96f2-672d45fbb95c: Home # Home
+    11b1499d-be7a-42a4-8900-b62fd7c51d72: 'Blog Section Title' # Blog Section Title
+    22fb625d-06f5-461a-a454-2eb3a8e40612: Blog # Blog
+    23ae33a7-8923-4c62-b50e-a55e0270762a: Question # Question
+    47aca4be-13f6-42a5-b94d-39aed75a64a3: 'Recent Subtitle' # Recent Subtitle
+    57d15b3c-e3f6-4dee-ba28-0d135f765a7d: 'Hero Title' # Hero Title
+    59a09038-22c3-4fa0-bfba-396d43c37839: Header # Header
+    69f175bb-b535-4831-8394-c2327ec66524: Testimonials # Testimonials
+    75b41c6f-6071-4985-826a-a1ff8f7b4bb7: 'Lead Description' # Lead Description
+    87c21e11-4a9f-4e0f-931e-4883177e16b1: Services # Services
+    93b37745-a740-4416-ac5e-330a9551037d: 'Install Header' # Install Header
+    111c3bad-ad0e-4115-acf2-a5b587c8ab83: 'Service Image' # Service Image
+    195a3ef9-d244-4636-9d85-b86f2f4fbd3b: Comment # Comment
+    310b0c71-efdc-4094-9780-69a40f8a4987: 'Services CTA Text' # Services CTA Text
+    0369f1ce-a9c3-4e69-98d1-7a989ba07ab8: 'Contact Phone' # Contact Phone
+    384cfbd1-6d6f-4cfe-a3d1-add92b7d2d72: Person # Person
+    395c13aa-7eba-4619-9ce8-a82bbaff1cc4: Common # Common
+    422baf31-1e59-435c-bf97-dbb98d3d7385: 'Recent Title' # Recent Title
+    435e168f-db13-4793-81b9-924d7d4fe847: 'Install Body' # Install Body
+    559bf6ef-308e-4158-9b52-2e2c000c165b: 'General Pages' # General Pages
+    568c25e2-ecb0-45eb-844a-8bd08cfdc89b: FAQ # FAQ
+    662a6012-d72b-4297-b33e-e4d8a9ff4d7f: 'App iOS LInk' # App iOS LInk
+    674ec532-310d-4069-8e2a-f705dba8318c: Image # Image
+    695b12a0-07c5-4e31-9a12-da5c175fdd5a: Service # Service
+    801ce795-963f-4607-827e-637c895d33f4: 'Contact Email' # Contact Email
+    896d9c7f-9c64-412b-8a55-84c443c8c15c: 'FAQ Matrix' # FAQ Matrix
+    989e72fc-eb73-4169-99c0-0d571836a06c: 'Hero Welcome' # Hero Welcome
+    7468a996-c5bf-4fd7-ad63-fd08ec6622ad: 'Service Text Main' # Service Text Main
+    7702e9f7-8517-432b-b7de-fc2513dab848: 'Person Image' # Person Image
+    8030a0b0-5fd4-4c94-998d-f26d919f92f5: 'App Main Heading' # App Main Heading
+    020567ed-aecb-4a51-993b-37a92ae1c08d: 'Lead Heading' # Lead Heading
+    27811e71-bcc3-407a-b0f9-ce3624776277: 'Services Description' # Services Description
+    35725c51-83e9-4d40-9fac-7c225eb836fd: Instagram # Instagram
+    85934e8f-1a39-42c4-992c-cce465fd76fd: 'Recent CTA Text' # Recent CTA Text
+    92180d18-f1e2-408c-871e-09b0d1bf0092: 'Car Logos' # Car Logos
+    96149dd4-444b-4b09-ab8d-9abc2f5ebe20: Answer # Answer
+    323302d5-3080-4846-953b-89098541764d: Header # Header
+    955149d4-ee10-4cf7-b1d1-ce37d2d01d39: 'Section Title' # Section Title
+    5418884d-d85e-44e8-8ee3-97735b6d0a89: 'Footer Copy' # Footer Copy
+    47920768-7b1d-4e85-bb3c-a14ccd4b6c96: Contact # Contact
+    65127011-d4ce-44ff-9d8e-12d854707192: Link # Link
+    70505172-7f36-43f3-ab1d-8898c0aff2dd: 'Main Content' # Main Content
+    a3c45954-027f-4c30-8090-5d181718b110: Default # Default
+    a5e381f2-b4be-4abb-938a-0d719f0ef3e3: About # About
+    a5fd1f8d-3705-45b4-82b0-33202328e94b: Services # Services
+    a9bc851d-d0e3-4d60-ab07-977bd3724b09: 'Person Title' # Person Title
+    a9d3540a-ac5a-4eff-a7a3-664b9cfffd76: Services # Services
+    a12e8610-04d3-4181-8ffd-deef08641134: 'Service Pages' # Service Pages
+    a6959af8-3f31-4847-85e1-3d8e27e18987: Home # Home
+    a67762ab-5c9b-4f59-a7df-b67519b76fad: 'Bottom Section Title' # Bottom Section Title
+    abb525ea-bdb7-4dfc-af18-beab4c5fe728: Contact # Contact
+    ac84ffc0-3d92-4da4-ab4d-c32eab17a368: 'Bottom Section Text' # Bottom Section Text
+    af1df1e6-1223-4efe-9284-72dea06f4b87: LinkedIN # LinkedIN
+    b2d4acff-2e91-49f6-8d49-677b2ee485c6: Services # Services
+    b7f0c9cb-9fa4-4174-9774-e9c06ca293cd: 'EGO EV' # EGO EV
+    b9f3fb12-9462-4618-8d2a-202a97e8e2e1: Transform1 # Transform1
+    b975fc17-df67-4df0-842a-6a5e998bdcd6: 'App Title' # App Title
+    b24502c4-7402-460f-a2cc-cc8643e2749f: 'Link Destination' # Link Destination
+    b233643d-7aa7-4e93-a877-506de03c48c2: 'Services Entries' # Services Entries
+    bcd9ec03-b9a0-442d-9c2b-ca6162a919e8: 'Android App Link' # Android App Link
+    bf91fae8-b39b-40b2-b592-310c14ad16e5: 'Featured Image' # Featured Image
+    caa6ba46-f73d-466f-98cf-5bc710b255cc: 'Section Image' # Section Image
+    cdea0a73-d7f3-4b36-b583-3e2482f0bf42: 'Footer Text' # Footer Text
+    ce47f11c-498f-474a-acc0-6a007e0e5d9a: 'Nav Phone' # Nav Phone
+    ce47161e-0925-400f-9af7-b33606ca35a5: 'Logo Dark' # Logo Dark
+    cfa560d9-6f09-4556-b04b-4c0a0ac79003: 'Service Link' # Service Link
+    d7b2b868-20eb-49b6-9018-b3fff02d6019: 'Car Brands' # Car Brands
+    d195545d-59c9-4b47-b9d5-63cac9e3e7cd: 'Split Image' # Split Image
+    dad15833-2cda-4530-857d-d1abd0add5d7: 'Recent CTA Link' # Recent CTA Link
+    dbf35501-f8ca-42a9-89d6-3273f4e6be54: 'Services Subtitle' # Services Subtitle
+    df38a06c-35c2-4edf-acb3-0033a1548b2b: 'Main Body' # Main Body
+    e0cf7f3e-036d-4607-b864-584ca7e36be6: Home # Home
+    e6d9418c-f7c7-4146-9eca-151b217df179: Facebook # Facebook
+    e7b7247f-6c9c-45f0-8927-32d7249a9e13: 'Service Title' # Service Title
+    e50cb30a-64d9-493d-bcd3-1ee623ea4a6d: Socials # Socials
+    e445c663-e3a4-4cad-9897-11e73a105172: Blogs # Blogs
+    e4246532-86b3-4e42-9a26-d0b8393e9adc: Default # Default
+    efb54d7f-8725-483a-bc7d-e042dfddde35: 'Hero CTA' # Hero CTA
+    f3f9fdba-5213-49ec-8e6c-6147b846d3ea: 'Install Bullets' # Install Bullets
+    f5ef656c-3bf4-422e-8ccd-df4920da3b77: 'Testimonials Subtitle' # Testimonials Subtitle
+    f58dd8d8-7016-493a-91de-7edef3bee8ab: Blog # Blog
+    f58f3dc6-f5d4-4875-b841-5137f4c0ec5a: 'Service Description' # Service Description
+    f787648e-9e9e-459f-bb25-a4f964720572: Logo_Light # Logo_Light
+    ffca15ce-e270-4a4d-9503-4928051f3d70: 'Sidebar About' # Sidebar About
+plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'EGO EV'
+      prependSubject: 'New message from EGO EV'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: paddy@unitopsmedia.com
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'EGO EV'
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

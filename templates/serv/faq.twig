@@ -1,0 +1,36 @@
+<!--=================================
+      accordion -->
+      <section class="space-pb">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-title left-divider text-center">
+                <span>{{ entry.faqSubtitle }}</span>
+                <h2>{{ entry.faqTitle }}</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+            {% for faq in entry.faqMatrix.all() %}
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      {{faq.question}}
+                    </button>
+                  </h3>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      {{faq.answer}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+            </div>
+        
+      </section>
+          
+      <!--=================================
+      accordion -->

@@ -1,0 +1,28 @@
+<!--=================================
+      clients -->
+      <section class="clients-section bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="owl-carousel owl-nav-bottom-center p-0" data-nav-dots="false" data-nav-arrow="false" data-items="4" data-lg-items="4" data-md-items="3" data-sm-items="2"  data-space="30" data-autoheight="true">
+              {% for image in entry.carLogos.all() %}
+              {% set dark = image.logoDark.one() %} 
+              {% set light = image.logoLight.one() %}   
+              <div class="item">
+                <div class="client-box">
+                  
+                  <div class="client-hover-img">
+                    <a href="#"><img class="img-fluid" src="{{ dark.url }}" alt="#"></a>
+                  </div>
+                  <div class="client-img">
+                    <a href="#"><img class="img-fluid" src="{{ light.url }}" alt="#"></a>
+                  </div>
+
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=================================
+      clients -->

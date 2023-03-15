@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: services
+name: Services
+propagationMethod: all
+siteSettings:
+  0e727dac-2a07-4e2a-99a8-683fa8a5e93a: # EGO EV
+    enabledByDefault: true
+    hasUrls: true
+    template: service.twig
+    uriFormat: services
+type: single

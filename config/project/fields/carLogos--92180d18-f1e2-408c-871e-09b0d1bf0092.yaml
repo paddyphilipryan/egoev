@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: a6959af8-3f31-4847-85e1-3d8e27e18987 # Home
+handle: carLogos
+instructions: null
+name: 'Car Logos'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_carlogos}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

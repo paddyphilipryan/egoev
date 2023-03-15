@@ -1,0 +1,47 @@
+ <!--=================================
+      Testimonial -->
+      <section class="bg-light position-relative testimonial-light-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 testimonial-bg" style="background-image: url(./images/testimonial/01.jpg);background-size:cover;background-repeat:no-repeat;background-position:center">
+            </div>
+            <div class="col-lg-6 justify-content-start">
+              <div class="space-ptb testimonial-description">
+                <div class="section-title left-divider">
+                <span>{{ entry.testimonialsSubtitle }}</span>
+                <h2> {{ entry.testimonialsTitle }}</h2>
+              </div>
+                {% for testimonials in entry.testimonials.all() %}
+                {% set photo = testimonials.personImage.one() %}<div class="owl-carousel owl-nav-bottom-center ps-0" data-nav-dots="false" data-nav-arrow="true" data-items="1" data-lg-items="1" data-md-items="1" data-sm-items="1"  data-space="30" data-autoheight="true">
+                  <div class="item">
+                    <div class="testimonial">
+                    
+                      <div class="testimonial-quote-icon">
+                        <img class="img-fluid" src="images/testimonial/quote.svg" alt="">
+                      </div>
+                      <div class="testimonial-content">
+                        <p class="mb-0"><i>{{ testimonials.comment }}</i> </p>
+                      </div>
+                      <div class="testimonial-author info-right">
+                        <div class="testimonial-avatar avatar">
+                          <img class="img-fluid" src="{{ photo.url }}" alt="">
+                        </div>
+                        <div class="testimonial-name">
+                          <h6 class="author-tittle">{{ testimonials.person }}</h6>
+                          <span>{{ testimonials.personTitle }}</span>
+                        </div>
+                      </div>
+                      
+                    </div>
+        
+                  </div>
+                  {% endfor %}
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=================================
+      Testimonial -->

@@ -1,0 +1,199 @@
+field: b233643d-7aa7-4e93-a877-506de03c48c2 # Services Entries
+fieldLayouts:
+  c8b3f99d-0a17-4d9d-9ba5-4561265e13d9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e7b7247f-6c9c-45f0-8927-32d7249a9e13 # Service Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 18d57055-6d1b-4d82-9903-b7b6d9f78908
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f58f3dc6-f5d4-4875-b841-5137f4c0ec5a # Service Description
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6b0c8299-053c-425c-a615-4e4d7d67161a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5f09351e-aae1-4276-82b6-c0af6f0fa2dd # Service Text Link Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 48722987-240d-4e43-86e1-37d8e182c082
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cfa560d9-6f09-4556-b04b-4c0a0ac79003 # Service Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77e38374-92f8-4595-a6e6-fbd41d0bddd7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 111c3bad-ad0e-4115-acf2-a5b587c8ab83 # Service Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d1bbcef7-6b0c-4832-a426-9539f3f1cb2e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f3b4ca1a-a06c-4dd1-9423-b6cd3ced5903
+        userCondition: null
+fields:
+  5f09351e-aae1-4276-82b6-c0af6f0fa2dd: # Service Text Link Title
+    columnSuffix: jthjnpti
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceTextLinkTitle
+    instructions: null
+    name: 'Service Text Link Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  111c3bad-ad0e-4115-acf2-a5b587c8ab83: # Service Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: serviceImage
+    instructions: null
+    name: 'Service Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:09e5bcec-ebd8-4ddc-86c8-9e86be6489c9' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: 1
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:09e5bcec-ebd8-4ddc-86c8-9e86be6489c9' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:09e5bcec-ebd8-4ddc-86c8-9e86be6489c9' # Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  cfa560d9-6f09-4556-b04b-4c0a0ac79003: # Service Link
+    columnSuffix: vsfahwio
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: serviceLink
+    instructions: null
+    name: 'Service Link'
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  e7b7247f-6c9c-45f0-8927-32d7249a9e13: # Service Title
+    columnSuffix: mhjdnzes
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceTitle
+    instructions: null
+    name: 'Service Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f58f3dc6-f5d4-4875-b841-5137f4c0ec5a: # Service Description
+    columnSuffix: ifyihmay
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceDescription
+    instructions: null
+    name: 'Service Description'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: services
+name: Services
+sortOrder: 1

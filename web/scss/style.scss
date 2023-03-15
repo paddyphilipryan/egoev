@@ -1,0 +1,97 @@
+/*
+Template: EV Spark - Electric Vehicle & Charging Stations HTML Template
+Version: 1.0.0
+Author: potenzaglobalsolutions
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This is main stylesheet of template, This file contains the styling for the actual Template.
+*/
+
+/*==============================================
+[  Table of contents  ]
+================================================
+
+ :: Typography
+ :: Helper Classes
+ :: Shortcodes
+    - Accordion
+    - Button
+    - Countdown
+    - Counter
+    - Feature Info
+		- Portfolio
+		- Newsletter
+		- Pie Chart
+		- Product
+    - Product List
+    - Select
+    - Service Info
+    - Sidebar
+    - Testimonial
+ :: Header
+   - Header Default
+   - Header Style 02
+   - Header Style 03
+ :: Banner
+   - Banner
+   - Banner 02
+   - Banner 03
+ :: Layout
+   - Section Title
+   - Video
+   - Keyframes
+   - Clients
+   - list
+   - Inner Header
+   - Pagination
+ :: Blog
+   - Blog
+   - Blog Style 01
+   - Blog Style 02
+   - Blog Style 03
+   - Blog Style single
+ :: Shop
+   - Product
+   - Product Detail
+    - Commentlist
+    - Checkout
+    - Cart
+    - Shop Category
+ :: Footer
+   - Footer
+   - Footer Style 02
+
+======================================
+[ End table content ]
+======================================*/
+
+// Core files
+@import "variables";
+@import "helpers";
+@import "typography";
+
+// Shortcodes
+@import "shortcodes/button";
+@import "shortcodes/feature-info";
+@import "shortcodes/service-info";
+@import "shortcodes/testimonial";
+@import "shortcodes/accordion";
+@import "shortcodes/counter";
+@import "shortcodes/newsletter";
+@import "shortcodes/product-list";
+@import "shortcodes/portfolio";
+@import "shortcodes/select";
+@import "shortcodes/product";
+@import "shortcodes/sidebar";
+@import "shortcodes/countdown";
+@import "shortcodes/pie-chart";
+
+// Structure
+@import "header";
+@import "layout";
+@import "banner";
+
+// Pages
+@import "blog"; 
+@import "shop";
+@import "footer";

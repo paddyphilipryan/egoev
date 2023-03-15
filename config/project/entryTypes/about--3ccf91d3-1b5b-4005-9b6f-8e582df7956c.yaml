@@ -1,0 +1,145 @@
+fieldLayouts:
+  5ed40519-bba5-4682-a0bc-0c6b2e5145c5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ee4d60ae-24a5-4740-9b76-f5eb72148651
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6f0d4ef7-c793-4943-aefd-164f2f66135d # Common Excerpt
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cc6d19de-f9fd-4bdf-8404-eba32b703450
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 70505172-7f36-43f3-ab1d-8898c0aff2dd # Main Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4080ed54-bc5d-450a-988a-78738fbd75e0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bf91fae8-b39b-40b2-b592-310c14ad16e5 # Featured Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a9aafab5-1759-4e2b-8900-d86f248421a9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d195545d-59c9-4b47-b9d5-63cac9e3e7cd # Split Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4e7d0433-c9d7-48f2-9fad-de111ae1e909
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0cc98409-5b7c-42da-8eca-22fd9fd519be
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3ab02981-25ad-470e-b7b0-57d3c05d2997 # Services Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c5055f8f-5057-422a-846c-ebda6a312609
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: dbf35501-f8ca-42a9-89d6-3273f4e6be54 # Services Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a0478933-a1c0-40cc-88fc-1ea160241c9e
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 27811e71-bcc3-407a-b0f9-ce3624776277 # Services Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 63b512bc-35c6-4f9f-8453-77196eadda4e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b233643d-7aa7-4e93-a877-506de03c48c2 # Services Entries
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4e78de79-4d14-4f2e-9baa-afc4408bc9f5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Services
+        uid: 10ee39ea-5ef2-4d1d-8cf2-2460d0a16b10
+        userCondition: null
+handle: about
+hasTitleField: false
+name: About
+section: a5e381f2-b4be-4abb-938a-0d719f0ef3e3 # About
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

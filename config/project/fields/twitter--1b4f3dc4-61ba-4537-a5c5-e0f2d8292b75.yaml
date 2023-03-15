@@ -1,0 +1,14 @@
+columnSuffix: quwsnpma
+contentColumnType: string(255)
+fieldGroup: e50cb30a-64d9-493d-bcd3-1ee623ea4a6d # Socials
+handle: twitter
+instructions: null
+name: Twitter
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

@@ -1,0 +1,29 @@
+columnSuffix: dumwlpsl
+contentColumnType: text
+fieldGroup: a12e8610-04d3-4181-8ffd-deef08641134 # Service Pages
+handle: leadDescription
+instructions: null
+name: 'Lead Description'
+searchable: false
+settings:
+  availableTransforms:
+    - b9f3fb12-9462-4618-8d2a-202a97e8e2e1 # Transform1
+  availableVolumes:
+    - 09e5bcec-ebd8-4ddc-86c8-9e86be6489c9 # Uploads
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

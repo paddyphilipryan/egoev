@@ -1,0 +1,19 @@
+columnSuffix: lwhmdnog
+contentColumnType: text
+fieldGroup: 395c13aa-7eba-4619-9ce8-a82bbaff1cc4 # Common
+handle: commonExcerpt
+instructions: null
+name: 'Common Excerpt'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

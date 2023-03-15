@@ -1,0 +1,36 @@
+<!--=================================
+      Our Services-->
+      <section class="space-ptb">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-6">
+              <div class="section-title left-divider mb-0">
+                <span>{{ entry.servicesSubtitle }}</span>
+                <h2>{{ entry.servicesTitle }}</h2>
+              </div>
+            </div>
+            <div class="col-lg-6 text-start text-lg-end mt-4 mt-lg-0">
+              <a href="#" class="btn btn-primary">{{ entry.servicesCtaText }}</a>
+            </div>
+          </div>
+          <div class="row mt-5">
+           {% for services in entry.servicesEntries.all() %}
+           {% set photo = services.serviceImage.one() %}  
+            <div class="col-md-12 col-lg-6">
+              <div class="service-item service-info-style-01">
+                <div class="service-img">
+                  <div class="service-img-inner">
+                    <img class="img-fluid" src="{{ photo.url }}" alt="">
+                  </div>
+                </div>
+                <div class="service-content">
+                  <h3 class="service-title">{{services.serviceTitle}}</h3>
+                  <p>{{services.serviceDescription}}</p>
+                  <a href="charging-network-operators.html">{{services.serviceTextLinkTitle}}<i class="fa-solid fa-arrow-right-long ps-2"></i></a>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section> 

@@ -1,0 +1,172 @@
+field: 1d18e928-59e9-4a8d-8036-ad9b4dd9b6f3 # Testimonials
+fieldLayouts:
+  7617f8e7-ac8a-408a-b5c5-0223a4571061:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 195a3ef9-d244-4636-9d85-b86f2f4fbd3b # Comment
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9756bda-a04a-421c-88c8-7dec1978a4af
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 384cfbd1-6d6f-4cfe-a3d1-add92b7d2d72 # Person
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2acbfc55-5567-4ed2-9706-0cd6b2436b64
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a9bc851d-d0e3-4d60-ab07-977bd3724b09 # Person Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b943dd07-1863-49a5-992d-1491de3b0d77
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7702e9f7-8517-432b-b7de-fc2513dab848 # Person Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 88ee820b-c131-4c46-9921-55f167d639b4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 557050cd-2f92-4e41-a7a3-565c0d71cdfb
+        userCondition: null
+fields:
+  195a3ef9-d244-4636-9d85-b86f2f4fbd3b: # Comment
+    columnSuffix: qfhhlxxa
+    contentColumnType: text
+    fieldGroup: null
+    handle: comment
+    instructions: null
+    name: Comment
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  384cfbd1-6d6f-4cfe-a3d1-add92b7d2d72: # Person
+    columnSuffix: ymnrcudk
+    contentColumnType: text
+    fieldGroup: null
+    handle: person
+    instructions: null
+    name: Person
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  7702e9f7-8517-432b-b7de-fc2513dab848: # Person Image
+    columnSuffix: llwodzbz
+    contentColumnType: string
+    fieldGroup: null
+    handle: personImage
+    instructions: null
+    name: 'Person Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:09e5bcec-ebd8-4ddc-86c8-9e86be6489c9' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: 1
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:09e5bcec-ebd8-4ddc-86c8-9e86be6489c9' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:09e5bcec-ebd8-4ddc-86c8-9e86be6489c9' # Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  a9bc851d-d0e3-4d60-ab07-977bd3724b09: # Person Title
+    columnSuffix: dbhcdsiv
+    contentColumnType: text
+    fieldGroup: null
+    handle: personTitle
+    instructions: null
+    name: 'Person Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: testimonials
+name: Testimonials
+sortOrder: 1

@@ -1,0 +1,37 @@
+<!--=================================
+      accordion -->
+      <section class="space-ptb bg-light map-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12 col-lg-6">
+              <div class="d-flex fle flex-column">
+                <div class="section-title left-divider order-last order-lg-first">
+                  <span>FAQ</span>
+                  <h2>{{ entry.faqTitle }}</h2>
+                </div>
+                <div class="map-listing order-frist order-lg-last">
+                  <img class="img-fluid" src="images/home-03/bg-13.png" alt="#">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+            {% for faq in entry.faqMatrix.all() %}
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">{{faq.question}}</button>
+                  </h3>
+                  <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      {{faq.answer}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+             {% endfor %}
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=================================
+      accordion -->

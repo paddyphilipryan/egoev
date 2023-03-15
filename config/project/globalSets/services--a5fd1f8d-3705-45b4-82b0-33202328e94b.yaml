@@ -1,0 +1,60 @@
+fieldLayouts:
+  699ab7e8-d85e-4150-9263-60a92568650b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3ab02981-25ad-470e-b7b0-57d3c05d2997 # Services Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5e03318c-e8fe-43ab-9b89-fba93d1c84a1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dbf35501-f8ca-42a9-89d6-3273f4e6be54 # Services Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 754a2492-274c-4678-af7d-cd7331e11cca
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 27811e71-bcc3-407a-b0f9-ce3624776277 # Services Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1ec2afe4-7585-47c0-9018-e44a2ccfd114
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b233643d-7aa7-4e93-a877-506de03c48c2 # Services Entries
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 03437ba1-dc8d-4728-b6b3-8bcbf72589df
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Feature Set'
+        uid: e952a091-c2fb-4e56-96ae-2034908879fa
+        userCondition: null
+handle: services
+name: Services
+sortOrder: 3

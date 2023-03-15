@@ -1,0 +1,19 @@
+columnSuffix: ztywcqdx
+contentColumnType: text
+fieldGroup: a6959af8-3f31-4847-85e1-3d8e27e18987 # Home
+handle: appTitle
+instructions: null
+name: 'App Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

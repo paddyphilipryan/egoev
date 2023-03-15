@@ -1,0 +1,88 @@
+field: 896d9c7f-9c64-412b-8a55-84c443c8c15c # FAQ Matrix
+fieldLayouts:
+  c116385e-9cb5-4723-9a89-c3a7e8a89a34:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 23ae33a7-8923-4c62-b50e-a55e0270762a # Question
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b710cd09-396f-43ce-9b5f-1a1bf835a68b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 96149dd4-444b-4b09-ab8d-9abc2f5ebe20 # Answer
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 507fcf2b-b037-4606-a846-eebb5dba6390
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 40701f2c-6412-435d-a2ff-e884ee51cc0b
+        userCondition: null
+fields:
+  23ae33a7-8923-4c62-b50e-a55e0270762a: # Question
+    columnSuffix: ttnsussv
+    contentColumnType: text
+    fieldGroup: null
+    handle: question
+    instructions: null
+    name: Question
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  96149dd4-444b-4b09-ab8d-9abc2f5ebe20: # Answer
+    columnSuffix: mcnxovan
+    contentColumnType: text
+    fieldGroup: null
+    handle: answer
+    instructions: null
+    name: Answer
+    searchable: false
+    settings:
+      availableTransforms:
+        - b9f3fb12-9462-4618-8d2a-202a97e8e2e1 # Transform1
+      availableVolumes:
+        - 09e5bcec-ebd8-4ddc-86c8-9e86be6489c9 # Uploads
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: faq
+name: FAQ
+sortOrder: 1

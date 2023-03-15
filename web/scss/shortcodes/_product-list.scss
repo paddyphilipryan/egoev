@@ -1,0 +1,204 @@
+/*****************************
+ Product List
+*****************************/
+.product-list {
+	.product-info {
+		display: flex;
+		align-items: center;
+		padding: 20px 25px 20px 20px;
+
+		.product-img {
+			flex: 0 0 200px;
+			margin-right: 30px;
+		}
+
+		.product-content {
+			flex: 0 0 510px;
+
+			h6 {
+				font-weight: 600;
+				margin-bottom: 0;
+			}
+
+			p {
+				padding: 10px 0 20px 0;
+				margin-bottom: 0;
+			}
+
+			ul {
+				display: flex;
+				flex-wrap: wrap;
+				margin-bottom: 0;
+
+				li {
+					a {
+						display: flex;
+						color: $secondary;
+						text-decoration: underline !important;
+
+						object {
+							filter: $filter-1;
+						}
+
+						&:hover {
+							color: $primary;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+		.pricing-price {
+			margin-left: auto;
+
+			span {
+				padding-right: 20px;
+				display: flex;
+				align-items: center;
+				color: $secondary;
+
+				sup {
+					top: 0;
+					font-weight: 600;
+					font-size: 30px;
+				}
+
+				strong {
+					font-size: 30px;
+					font-weight: 600;
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+@media (max-width:1400px) and (min-width:1200px) {
+	.product-list {
+		.product-info {
+			.product-img {
+				margin-right: 30px;
+			}
+
+			.product-content {
+				flex: 0 0 360px;
+			}
+
+			.pricing-price {
+				flex: inherit;
+			}
+
+		}
+
+	}
+
+}
+
+@media (max-width:1200px) {
+	.product-list {
+		.product-info {
+			padding: 25px;
+			display: block;
+
+			.product-img {
+				margin-right: 20px;
+				padding-bottom: 20px;
+			}
+
+			.product-content {
+				flex: 0 0 350px;
+				margin-bottom: 20px;
+			}
+
+			.pricing-price {
+				margin-bottom: 10px;
+
+				span {
+					padding-right: 10px;
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+@media (max-width:991px) {
+	.product-list {
+		.product-info {
+			display: block;
+
+			.product-img {
+				width: 100%;
+				padding-bottom: 20px;
+			}
+
+			.product-content {
+				width: 100%;
+			}
+
+		}
+
+	}
+
+}
+
+@media (max-width:767px) {
+	.product-list {
+		.product-info {
+			padding: 20px;
+
+			.product-content {
+				p {
+					padding: 10px 0;
+				}
+
+				ul {
+					li {
+						margin-bottom: 10px;
+
+						&:last-child {
+							margin-bottom: 0;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+@media (max-width:479px) {
+	.product-list {
+		.product-info {
+			padding: 20px;
+
+			.pricing-price {
+				display: block;
+				margin: 10px 0;
+
+				.btn {
+					margin-top: 10px;
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,138 @@
+field: 92180d18-f1e2-408c-871e-09b0d1bf0092 # Car Logos
+fieldLayouts:
+  fb6cff0b-8378-4686-a169-aca0929ccea5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ce47161e-0925-400f-9af7-b33606ca35a5 # Logo Dark
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6fed60f4-a3e7-4f06-8a83-1a8a75aa35cf
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 1e7f124a-3fc0-48f7-b8e1-0668db81209b # Logo Light
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 20ea6dee-f8b1-4d93-9391-e90d968adc10
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: 8d8fa288-7e08-4209-b9dc-ac184e088629
+        userCondition: null
+fields:
+  1e7f124a-3fc0-48f7-b8e1-0668db81209b: # Logo Light
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: logoLight
+    instructions: null
+    name: 'Logo Light'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:09e5bcec-ebd8-4ddc-86c8-9e86be6489c9' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: 1
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:09e5bcec-ebd8-4ddc-86c8-9e86be6489c9' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:09e5bcec-ebd8-4ddc-86c8-9e86be6489c9' # Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  ce47161e-0925-400f-9af7-b33606ca35a5: # Logo Dark
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: logoDark
+    instructions: null
+    name: 'Logo Dark'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:09e5bcec-ebd8-4ddc-86c8-9e86be6489c9' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: 1
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:09e5bcec-ebd8-4ddc-86c8-9e86be6489c9' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:09e5bcec-ebd8-4ddc-86c8-9e86be6489c9' # Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: image
+name: Image
+sortOrder: 1

@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: generalPages
+name: 'General Pages'
+propagationMethod: all
+siteSettings:
+  0e727dac-2a07-4e2a-99a8-683fa8a5e93a: # EGO EV
+    enabledByDefault: true
+    hasUrls: true
+    template: single.twig
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: d1a31345-7e84-4e3e-9c72-ed22fa75bab0
+type: structure

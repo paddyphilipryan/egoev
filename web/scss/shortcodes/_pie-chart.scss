@@ -1,0 +1,38 @@
+/*****************************
+	Pie Chart
+*****************************/
+.pie-chart.pie-chart-percentage {
+	display: flex;
+	align-items: center;
+
+	.round-chart {
+		display: flex;
+		position: relative;
+		text-align: center;
+
+		span {
+			display: inline-block;
+			font-size: 22px;
+			padding: 0;
+			color: $white;
+			z-index: 2;
+			font-weight: 600;
+			position: absolute;
+		}
+
+		.percent {
+			&:after {
+				content: "%";
+			}
+
+		}
+
+	}
+
+	.chart-title {
+		font-size: 22px;
+		font-weight: 600;
+		margin-left: 15px;
+	}
+
+}

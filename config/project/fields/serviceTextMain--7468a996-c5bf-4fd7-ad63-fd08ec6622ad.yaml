@@ -1,0 +1,19 @@
+columnSuffix: vltipfoj
+contentColumnType: text
+fieldGroup: 395c13aa-7eba-4619-9ce8-a82bbaff1cc4 # Common
+handle: serviceTextMain
+instructions: null
+name: 'Service Text Main'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

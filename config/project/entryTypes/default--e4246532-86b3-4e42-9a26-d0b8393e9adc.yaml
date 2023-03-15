@@ -1,0 +1,43 @@
+fieldLayouts:
+  6d8ec7fb-9d69-4448-a70b-1c0391f61061:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e23e109b-a140-43d1-91b2-c537fc5984b8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4cea4b9d-49f9-4f65-9e93-416ff66b6d7e
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 559bf6ef-308e-4158-9b52-2e2c000c165b # General Pages
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

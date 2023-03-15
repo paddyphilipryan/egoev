@@ -1,0 +1,144 @@
+fieldLayouts:
+  0f11b157-06de-41b5-836e-4f64c8e8c1c3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2a5a99ee-9a61-43c0-b544-cbf78e7dcae6 # Nav Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1c4b3bb8-c405-4cc5-bb08-cb362e521287
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Nav Links'
+        uid: bc6892d6-cb67-4fb2-9843-04fca1fdcd65
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0369f1ce-a9c3-4e69-98d1-7a989ba07ab8 # Contact Phone
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 84dd46e6-3d97-4bbb-befd-07634f99cbb3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 801ce795-963f-4607-827e-637c895d33f4 # Contact Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8e20ae8a-b811-434a-b736-29f63e04e821
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6da07117-8730-4b9c-a804-d1a8a9feb2ab # Contact Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f52fbdd3-95d5-489c-9986-3b4280cb02e1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ffca15ce-e270-4a4d-9503-4928051f3d70 # Sidebar About
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 744657a9-e6bf-4ba9-9ddc-c08ebba507af
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8e4b0746-056f-4372-bb9e-0d25e3eccaa8 # Nav More
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c079626-06d2-485f-aa7f-07893eabda28
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ce47f11c-498f-474a-acc0-6a007e0e5d9a # Nav Phone
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ca65bbc1-cd62-4df1-a950-f3bdb2166843
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5418884d-d85e-44e8-8ee3-97735b6d0a89 # Footer Copy
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7e2f6328-d5f3-4a0b-bee6-3630e87f451f
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Side Nav'
+        uid: 1ea3c652-7def-4150-a7c0-5716a20ec7d4
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4f34dbb1-8ff0-4efa-a470-402c1e06a1e4 # Logo_Dark
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 938dd575-b5cb-4fe8-9441-e052db08f3d2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f787648e-9e9e-459f-bb25-a4f964720572 # Logo_Light
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b7d0bf12-bb9d-4219-90bf-fc71bedd4a54
+            userCondition: null
+            warning: null
+            width: 100
+        name: Logo
+        uid: 02657acb-b433-46ed-a575-6fae1855076d
+        userCondition: null
+handle: header
+name: Header
+sortOrder: 1

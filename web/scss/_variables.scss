@@ -1,0 +1,44 @@
+// Font family
+$font-base: 	'Outfit', sans-serif;
+$font-hedding:	'Outfit', sans-serif;
+$font-body: 	'Outfit', sans-serif;
+
+// Colors
+$body-color:	#8d8c8c;
+$primary:		#2673f8;
+$secondary:		#091c3a;    // Hedding color
+$white:			#ffffff;
+$gray-1: 		#f0f6fa; 	// bg light	
+$gray-2: 		#f5f5f5;
+$black:  		#000000;
+$red:  			#ff0000;
+$yellow:  		#ee9914;
+$blue:  		#052c52;
+$success:		#0abb0a;
+$danger:		#f52626;
+
+// SVG color
+$filter-1: invert(29%) sepia(100%) saturate(1887%) hue-rotate(211deg) brightness(102%) contrast(94%);
+
+// SVG color
+$filter-2: invert(99%) sepia(67%) saturate(351%) hue-rotate(195deg) brightness(117%) contrast(101%);
+
+
+// Border color
+$border-color: #ededed;
+$border-light: rgba($white, .3);
+$border-light-2: rgba($white, .1);	
+
+// For button and input border radius
+$border-radius: 6px;
+$border-radius-sm: 4px;
+$border-radius-md: 10px;
+$border-radius-lg: 50%;
+
+
+// box-shadow
+$box-shadow: 0px 1px 30px 0px rgba($secondary, .09);
+$box-shadow-sm:	0px 2px 5px 0px rgba($secondary, .10);
+$box-shadow-lg: 0 1rem 3rem rgba($secondary, .175);
+$box-shadow-inset: 0px 0px 15px 0px rgba($secondary, .10) inset;
+$box-shadow-top: 0 -4px 20px 0px rgba($secondary, .07);

@@ -1,0 +1,54 @@
+/*****************************
+ Newsletter
+*****************************/
+.newsletter {
+	form {
+		.form-group {
+			.form-control {
+				border: 1px solid transparent;
+				border-bottom: 1px solid $white;
+				font-size: 18px;
+				color: $white;
+				font-weight: normal;
+				background-color: inherit;
+				padding: 10px 130px 10px 20px;
+			}
+
+			input::placeholder {
+				color: $white;
+			}
+
+		}
+
+		.btn.btn-link {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			right: 20px;
+			color: $white;
+			text-transform: capitalize;
+			text-decoration: none;
+
+			&:hover {
+				color: $primary;
+			}
+
+		}
+
+	}
+
+}
+
+@media (max-width:479px) {
+	.newsletter {
+		form {
+			.btn {
+				position: inherit;
+				padding: 20px 0;
+			}
+
+		}
+
+	}
+
+}

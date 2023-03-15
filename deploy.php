@@ -12,7 +12,7 @@ set('application', 'new.egoevchargers.com');
 
 // Project repository
 // See: https://blog.harveydelaney.com/configuring-multiple-deploy-keys-on-github-for-your-vps/
-set('repository', 'repo-train-to-lake:mandrasch/train-to-lake-craftcms.git');
+set('repository', 'paddyphilipryan/egoev.git');
 // If you have only one deploy key, just use 
 // set('repository', 'git@githosting.com:enovatedesign/project.git');
 

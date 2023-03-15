@@ -1,4 +1,4 @@
-dateModified: 1678656226
+dateModified: 1678895885
 email:
   fromEmail: paddy@unitopsmedia.com
   fromName: 'EGO EV'
@@ -132,6 +132,10 @@ plugins:
       prependSubject: 'New message from EGO EV'
       successFlashMessage: 'Your message has been sent.'
       toEmail: paddy@unitopsmedia.com
+  copy:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   redactor:
     edition: standard
     enabled: true

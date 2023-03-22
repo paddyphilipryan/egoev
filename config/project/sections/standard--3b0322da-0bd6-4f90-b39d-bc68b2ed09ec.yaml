@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: standard
+name: Standard
+propagationMethod: all
+siteSettings:
+  0e727dac-2a07-4e2a-99a8-683fa8a5e93a: # EGO EV
+    enabledByDefault: true
+    hasUrls: true
+    template: standard.twig
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: cbc04a5f-0bae-4836-b62e-41e5f6b1c75e
+type: structure

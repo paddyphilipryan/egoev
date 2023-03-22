@@ -1,0 +1,11 @@
+fill: null
+format: null
+handle: transform2
+height: 600
+interlace: none
+mode: crop
+name: 'Transform 2'
+position: center-center
+quality: 30
+upscale: true
+width: 600

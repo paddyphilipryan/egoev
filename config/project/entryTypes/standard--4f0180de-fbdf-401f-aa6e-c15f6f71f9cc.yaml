@@ -1,0 +1,91 @@
+fieldLayouts:
+  78aaad1e-1341-4874-9a2a-863d73f68c76:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: Title
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 3ba442d3-cfa0-45e0-8ddd-ec948c95a35a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 57d15b3c-e3f6-4dee-ba28-0d135f765a7d # Hero Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7211bced-2f92-4326-b424-20179fb37d6a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bf91fae8-b39b-40b2-b592-310c14ad16e5 # Featured Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 813ef6aa-345d-474b-9998-bef2fba41c19
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6f0d4ef7-c793-4943-aefd-164f2f66135d # Common Excerpt
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d693e18b-823c-4204-b472-fc8f5e2c2b0b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 70505172-7f36-43f3-ab1d-8898c0aff2dd # Main Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 88f70c87-7986-42de-9ff7-1e436b69ff9c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9e76b72e-e8aa-49e8-81dd-05d2ff9b3979
+        userCondition: null
+handle: standard
+hasTitleField: true
+name: Standard
+section: 3b0322da-0bd6-4f90-b39d-bc68b2ed09ec # Standard
+sortOrder: 1
+titleFormat: '{heroTitle}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

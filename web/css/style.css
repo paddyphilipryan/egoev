@@ -112,13 +112,13 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   width: 100%; }
 
 .space-ptb {
-  padding: 100px 0; }
+  padding: 60px 0 60px;}
 
 .space-pt {
-  padding: 100px 0 100px; }
+  padding: 60px 0 60px; }
 
 .space-pb {
-  padding: 0 0 100px; }
+  padding: 60px 0 60px; }
 
 .bg-overlay-half-bottom {
   position: relative; }
@@ -372,35 +372,35 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 @media (max-width: 1200px) {
   .space-ptb {
-    padding: 80px 0; }
+    padding: 40px 0 40px }
   .space-pt {
-    padding: 80px 0 0; }
+    padding: 40px 0 40px }
   .space-pb {
-    padding: 0 0 80px; } }
+    padding: 40px 0 40px } }
 
 @media (max-width: 991px) {
   .space-ptb {
-    padding: 60px 0; }
+    padding: 30px 0 30px; }
   .space-pt {
-    padding: 60px 0 0; }
+    padding: 30px 0 30px; }
   .space-pb {
-    padding: 0 0 60px; } }
+    padding: 30px 0 30px; } }
 
 @media (max-width: 767px) {
   .space-ptb {
-    padding: 50px 0; }
+    padding: 20px 0 20px; }
   .space-pt {
-    padding: 50px 0 0; }
+    padding: 20px 0 20px; }
   .space-pb {
-    padding: 0 0 50px; } }
+    padding: 20px 0 20px; } }
 
 @media (max-width: 575px) {
   .space-ptb {
-    padding: 40px 0; }
+    padding: 20px 0 20px; }
   .space-pt {
-    padding: 40px 0 0; }
+    padding: 20px 0 20px; }
   .space-pb {
-    padding: 0 0 40px; } }
+    padding: 20px 0 20px; } }
 
 /*****************************
     Typography
@@ -5818,3 +5818,85 @@ ul.footer-contact li {
 
 /*# sourceMappingURL=../css/style.css.map */
  
+/* ACCORDIAN */
+.faqaccordion {
+  width: 100%;
+  margin: 10px auto;
+  color: black;
+  background-color: white;
+  padding: 0px 0px 0px 0px;}
+
+  @media (max-width: 991px) {
+    .faqaccordion {
+      margin-left: 0px; } }
+  
+  @media (max-width: 767px) {
+    .faqaccordion .faqcontainer h3.faqlabel {
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      font-size: 20px; }
+      .faqaccordion .faqcontainer h3.faqlabel .faqlabel:after {
+        margin-right: 0px; } }
+
+
+.faqaccordion .faqcontainer {
+  position: relative;
+  margin: 10px 10px;
+}
+
+.faqaccordion .faqlabel {
+  position: relative;
+  padding: 0px 20px 0px 0px;;
+  font-size: 1.2em;
+  cursor: pointer;
+  font-family: "Outfit", sans-serif;
+  font-weight: normal;
+  color: #091c3a;
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+.faqaccordion .faqlabel::before {
+  content: '+';
+  color: black;
+  position: absolute;
+  top: 10%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-20%);
+}
+
+.faqaccordion .faqcontent {
+  position: relative;
+  height: 0;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #8d8c8c;
+  font-weight: 300;
+}
+
+.faqaccordion hr {
+  width: 100%;
+  margin-left: 0;
+  border: 1px solid grey;
+}
+
+.faqaccordion .faqcontainer.active .faqcontent {
+  height: auto;
+}
+
+.faqaccordion .faqcontainer.active .faqlabel::before {
+  content: '-';
+  font-size: 30px;
+}
+
+
+
+

@@ -110,6 +110,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 47aca4be-13f6-42a5-b94d-39aed75a64a3 # Recent Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bdbacd98-e6da-4df0-853d-bbd2a2b42a96
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 9ad2d0e7-8a45-4415-8c2d-37f4f5f0d53b # App Body Text
             instructions: null
             label: null
@@ -164,16 +176,16 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: 310b0c71-efdc-4094-9780-69a40f8a4987 # Services CTA Text
+            fieldUid: a587677f-a72b-4170-80a6-1e141c3ec365 # White Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3dfca0d9-f495-448b-acb7-7ab7860c4f42
+            uid: 5d8f75db-b88e-43b1-9057-ebef67f8f21b
             userCondition: null
             warning: null
-            width: 50
+            width: 100
           -
             elementCondition: null
             fieldUid: dbf35501-f8ca-42a9-89d6-3273f4e6be54 # Services Subtitle
@@ -188,18 +200,72 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: b233643d-7aa7-4e93-a877-506de03c48c2 # Services Entries
+            fieldUid: dcfd7f8d-b6c3-4d81-bd60-44db6009d0ea # Tab 3 Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0c58f740-73d1-4b7a-ae7b-67dd1ad77655
+            uid: eb655e73-ce3d-4998-b1aa-ca4d90fd958e
             userCondition: null
             warning: null
             width: 100
         name: 'Services Tab'
         uid: 027e9541-9577-4fe2-a6fa-4349b6b49a9e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a67762ab-5c9b-4f59-a7df-b67519b76fad # Bottom Section Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bbf250f9-d7db-4120-a696-206813f2a5c7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2b8b4624-96c9-4ae6-93ae-dcacd66562c1 # Bottom Section Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 604d2e13-42bf-4c76-87dd-2e63eceda653
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ac84ffc0-3d92-4da4-ab4d-c32eab17a368 # Bottom Section Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e857cc1d-994f-48a9-bc93-35e12e9519f8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e167d400-afd5-4d40-a98f-256e495411bb # Tab 4 Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 55bf46c1-1e42-4df8-9088-ec249d89fdd6
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Last Section'
+        uid: 32701513-572b-4358-93e6-fb7607841d56
         userCondition: null
       -
         elementCondition: null
@@ -244,7 +310,7 @@ fieldLayouts:
         uid: 51d12cf2-249a-4c79-8318-869eb45a63e4
         userCondition: null
 handle: services
-hasTitleField: false
+hasTitleField: true
 name: Services
 section: 87c21e11-4a9f-4e0f-931e-4883177e16b1 # Services
 sortOrder: 1

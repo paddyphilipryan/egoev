@@ -1,0 +1,19 @@
+columnSuffix: rnajkukh
+contentColumnType: text
+fieldGroup: a12e8610-04d3-4181-8ffd-deef08641134 # Service Pages
+handle: whiteText
+instructions: null
+name: 'White Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

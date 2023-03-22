@@ -7,6 +7,6 @@ siteSettings:
   0e727dac-2a07-4e2a-99a8-683fa8a5e93a: # EGO EV
     enabledByDefault: true
     hasUrls: true
-    template: servtemplates/_entry.twig
+    template: service.twig
     uriFormat: 'services/{slug}'
 type: channel

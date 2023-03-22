@@ -1,0 +1,63 @@
+{% extends "index" %}
+
+{% block content %}
+{% include "about/header" %}	
+<!--==== Main content START -->
+
+
+<!--=================================
+      Service -->
+      <section class="space-ptb">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+            {% set pageTitle = entry.heroTitle %}
+            {% set pageDescription = entry.commonExcerpt %}
+              <div class="blog-detail">
+                <div class="blog-post blog-style-02 mb-4 mb-md-5">
+                  <p>{{ entry.mainContent }}</p>
+                </div>
+                <div class="blog-post-navigation mb-4 mb-md-4 mb-lg-5">
+                  <hr>
+                                <div class="section-title left-divider mb-0">
+               
+              </div>
+                  <div class="row">
+          
+          </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4  mt-lg-0 mt-5">
+              <div class="sidebar">
+                <div class="widget">
+                  <h3 class="widget-title fw-600">Recent Posts</h3>
+                    {% set blogs = craft.entries.section('blogs').all() %}
+                    {% for blog in blogs %} 
+                    {% set photo = blog.featuredImage.one() %}
+            
+          
+                  <div class="recent-post">
+                    <div class="post-img">
+                      <a href="{{ blog.url }}"><img class="img-fluid" src="{{ photo.url }}" alt="{{ blog.title }}"></a>
+                    </div>
+                    <div class="post-info">
+                      <span class="post-date"><i class="fa-solid fa-calendar-days"></i> {{blog.postDate|date('d/M/Y')}}</span>
+                      <h6 class="post-title"><a href="{{ blog.url }}">{{ blog.title }}</a></h6>
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+            
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+      <!--=================================
+      Blog -->
+
+    
+
+{% endblock %}

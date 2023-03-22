@@ -530,3 +530,10 @@ POTENZA.pieChart = function () {
     POTENZA.qty();
   });
 })(jQuery);
+
+const faqaccordion = document.getElementsByClassName('faqcontainer');
+            for (i=0; i<faqaccordion.length; i++) {
+              faqaccordion[i].addEventListener('click', function () {
+                this.classList.toggle('active')
+              })
+            }

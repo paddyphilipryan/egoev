@@ -240,6 +240,30 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: a587677f-a72b-4170-80a6-1e141c3ec365 # White Text
+            instructions: null
+            label: 'Link Text'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 81c68589-7980-443b-ad5f-b4f2e60fdf62
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 85c88500-7a34-494e-bbf0-08b265fe115c # Grant Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b28de6a7-d0cd-418f-ab57-b49f83bfc8a6
+            userCondition: null
+            warning: null
+            width: 100
         name: Installation
         uid: 4de21f33-f5e3-4383-9bfa-a1bbd79495b5
         userCondition: null

@@ -1,4 +1,4 @@
-dateModified: 1678895885
+dateModified: 1679493134
 email:
   fromEmail: paddy@unitopsmedia.com
   fromName: 'EGO EV'
@@ -25,9 +25,11 @@ meta:
     2c13bf6b-ae6d-4d53-b34a-89d4b65f5d2d: 'Testimonials Title' # Testimonials Title
     2e6b4ea0-3e54-48e4-899c-6abefd32a6ec: 'Car Banner' # Car Banner
     3ab02981-25ad-470e-b7b0-57d3c05d2997: 'Services Title' # Services Title
+    3b0322da-0bd6-4f90-b39d-bc68b2ed09ec: Standard # Standard
     3c1361c7-85bc-4a87-b453-60bd4c7c3213: Default # Default
     3ccf91d3-1b5b-4005-9b6f-8e582df7956c: About # About
     3f337be1-a487-4d72-a79a-ce263d16f1c9: 'Blog Fields' # Blog Fields
+    4f0180de-fbdf-401f-aa6e-c15f6f71f9cc: Standard # Standard
     4f34dbb1-8ff0-4efa-a470-402c1e06a1e4: Logo_Dark # Logo_Dark
     5f09351e-aae1-4276-82b6-c0af6f0fa2dd: 'Service Text Link Title' # Service Text Link Title
     6da07117-8730-4b9c-a804-d1a8a9feb2ab: 'Contact Address' # Contact Address
@@ -45,6 +47,7 @@ meta:
     59a09038-22c3-4fa0-bfba-396d43c37839: Header # Header
     69f175bb-b535-4831-8394-c2327ec66524: Testimonials # Testimonials
     75b41c6f-6071-4985-826a-a1ff8f7b4bb7: 'Lead Description' # Lead Description
+    85c88500-7a34-494e-bbf0-08b265fe115c: 'Grant Link' # Grant Link
     87c21e11-4a9f-4e0f-931e-4883177e16b1: Services # Services
     93b37745-a740-4416-ac5e-330a9551037d: 'Install Header' # Install Header
     111c3bad-ad0e-4115-acf2-a5b587c8ab83: 'Service Image' # Service Image
@@ -63,6 +66,7 @@ meta:
     801ce795-963f-4607-827e-637c895d33f4: 'Contact Email' # Contact Email
     896d9c7f-9c64-412b-8a55-84c443c8c15c: 'FAQ Matrix' # FAQ Matrix
     989e72fc-eb73-4169-99c0-0d571836a06c: 'Hero Welcome' # Hero Welcome
+    3240e20a-bd4f-489a-ac75-67bfd79952c4: 'Transform 2' # Transform 2
     7468a996-c5bf-4fd7-ad63-fd08ec6622ad: 'Service Text Main' # Service Text Main
     7702e9f7-8517-432b-b7de-fc2513dab848: 'Person Image' # Person Image
     8030a0b0-5fd4-4c94-998d-f26d919f92f5: 'App Main Heading' # App Main Heading
@@ -73,6 +77,7 @@ meta:
     92180d18-f1e2-408c-871e-09b0d1bf0092: 'Car Logos' # Car Logos
     96149dd4-444b-4b09-ab8d-9abc2f5ebe20: Answer # Answer
     323302d5-3080-4846-953b-89098541764d: Header # Header
+    710482a5-93e7-47dd-adab-b41917432165: 'Transform 3' # Transform 3
     955149d4-ee10-4cf7-b1d1-ce37d2d01d39: 'Section Title' # Section Title
     5418884d-d85e-44e8-8ee3-97735b6d0a89: 'Footer Copy' # Footer Copy
     47920768-7b1d-4e85-bb3c-a14ccd4b6c96: Contact # Contact
@@ -86,6 +91,7 @@ meta:
     a12e8610-04d3-4181-8ffd-deef08641134: 'Service Pages' # Service Pages
     a6959af8-3f31-4847-85e1-3d8e27e18987: Home # Home
     a67762ab-5c9b-4f59-a7df-b67519b76fad: 'Bottom Section Title' # Bottom Section Title
+    a587677f-a72b-4170-80a6-1e141c3ec365: 'White Text' # White Text
     abb525ea-bdb7-4dfc-af18-beab4c5fe728: Contact # Contact
     ac84ffc0-3d92-4da4-ab4d-c32eab17a368: 'Bottom Section Text' # Bottom Section Text
     af1df1e6-1223-4efe-9284-72dea06f4b87: LinkedIN # LinkedIN
@@ -106,11 +112,13 @@ meta:
     d195545d-59c9-4b47-b9d5-63cac9e3e7cd: 'Split Image' # Split Image
     dad15833-2cda-4530-857d-d1abd0add5d7: 'Recent CTA Link' # Recent CTA Link
     dbf35501-f8ca-42a9-89d6-3273f4e6be54: 'Services Subtitle' # Services Subtitle
+    dcfd7f8d-b6c3-4d81-bd60-44db6009d0ea: 'Tab 3 Image' # Tab 3 Image
     df38a06c-35c2-4edf-acb3-0033a1548b2b: 'Main Body' # Main Body
     e0cf7f3e-036d-4607-b864-584ca7e36be6: Home # Home
     e6d9418c-f7c7-4146-9eca-151b217df179: Facebook # Facebook
     e7b7247f-6c9c-45f0-8927-32d7249a9e13: 'Service Title' # Service Title
     e50cb30a-64d9-493d-bcd3-1ee623ea4a6d: Socials # Socials
+    e167d400-afd5-4d40-a98f-256e495411bb: 'Tab 4 Image' # Tab 4 Image
     e445c663-e3a4-4cad-9897-11e73a105172: Blogs # Blogs
     e4246532-86b3-4e42-9a26-d0b8393e9adc: Default # Default
     efb54d7f-8725-483a-bc7d-e042dfddde35: 'Hero CTA' # Hero CTA
